@@ -87,7 +87,7 @@ end
 
 Visuals:CreateSection("Killer Highlights")
 Visuals:CreateToggle({
-    Name = "Killer Chams",
+    Name = "Killer ESP",
     CurrentValue = false,
     Callback = function(state) _G.killers = state end
 })
